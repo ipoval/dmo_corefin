@@ -1,5 +1,7 @@
 ## DMO Core Financials Clients
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/5c9a9a905fae29c790b5/maintainability)](https://codeclimate.com/github/ipoval/dmo_corefin/maintainability)
+
 ### Supported actions
 
 Action | Exchange | Usage
