@@ -4,7 +4,7 @@
 
 Action | Exchange | Usage
 :------|:------------|:-----------
-stock chart img | NYSE | `#NYSE. Stock chart img`
+stock chart img | NYSE | [link](https://github.com/ipoval/dmo_corefin/tree/master#nyse-stock-chart-img)
 
 ###### NYSE. Stock chart img 
 ```go
