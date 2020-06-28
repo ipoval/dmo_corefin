@@ -1,4 +1,4 @@
-package img
+package stockcharts_dot_com
 
 import (
   "testing"
@@ -8,8 +8,8 @@ import (
 
 func TestGetImgBase64(t *testing.T) {
   is := assert.New(t)
-  img := New("SPY", testProviderChartImg)
-  encodedImg, err := img.GetImgBase64()
+  sp500 := "SPY"
+  encodedImg, err := testProviderChartImg.GetChartImgBase64(sp500)
 
   is.NoError(err)
   is.NotEmpty(encodedImg)

@@ -7,18 +7,19 @@ import (
   "github.com/lucperkins/rek"
 )
 
-func NewClientStockchartsDotCom() *ClientStockchartsDotCom {
-  return &ClientStockchartsDotCom{
+// Initialize new client
+func New() *Client {
+  return &Client{
     Referer: Referer,
   }
 }
 
-type ClientStockchartsDotCom struct {
+type Client struct {
   Referer string
 }
 
 // Get base64 encoded bytes for chart image by security ticker
-func (c *ClientStockchartsDotCom) GetChartImgBase64(ticker string) (string, error) {
+func (c *Client) GetChartImgBase64(ticker string) (string, error) {
   httpHeaders := map[string]string{"Referer": Referer,}
   url := c.getChartImgURL(ticker)
 
@@ -46,6 +47,6 @@ func (c *ClientStockchartsDotCom) GetChartImgBase64(ticker string) (string, erro
   return base64.StdEncoding.EncodeToString(body), nil
 }
 
-func (c *ClientStockchartsDotCom) getChartImgURL(ticker string) string {
+func (c *Client) getChartImgURL(ticker string) string {
   return `https://stockcharts.com/c-sc/sc?s=` + ticker + `&p=W&b=5&g=0&i=t1041368475c`
 }
