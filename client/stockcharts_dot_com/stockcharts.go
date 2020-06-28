@@ -4,6 +4,7 @@ import (
   "encoding/base64"
   "net/http"
 
+  gasrest "github.com/ipoval/goactivesupport/rest"
   "github.com/lucperkins/rek"
 )
 
@@ -26,7 +27,7 @@ func (c *Client) GetChartImgBase64(ticker string) (string, error) {
   resp, err := rek.Get(
     url,
     rek.Headers(httpHeaders),
-    rek.UserAgent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36"),
+    rek.UserAgent(gasrest.UserAgent.Chrome()),
     httpTimeout,
   )
 
