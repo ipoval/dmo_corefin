@@ -6,7 +6,11 @@ build:
 
 .PHONY: test
 test:
-	$(GO) test ./...
+	$(GO) test -timeout 15s ./...
+
+.PHONY: testv
+testverbose:
+	$(GO) test -v -cover -race -timeout 15s ./...
 
 .PHONY: tidy
 tidy:

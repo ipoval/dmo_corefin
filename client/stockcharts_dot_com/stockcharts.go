@@ -2,6 +2,7 @@ package stockcharts_dot_com
 
 import (
   "encoding/base64"
+  "fmt"
   "net/http"
 
   gasrest "github.com/ipoval/goactivesupport/rest"
@@ -49,5 +50,8 @@ func (c *Client) GetChartImgBase64(ticker string) (string, error) {
 }
 
 func (c *Client) getChartImgURL(ticker string) string {
-  return `https://stockcharts.com/c-sc/sc?s=` + ticker + `&p=W&b=5&g=0&i=t1041368475c`
+  return fmt.Sprintf(
+    `https://stockcharts.com/c-sc/sc?s=%s&p=W&b=5&g=0&i=t9258822767c&r=1593436825603`,
+    ticker,
+  )
 }

@@ -13,5 +13,5 @@ func TestGetImgBase64(t *testing.T) {
 
   is.NoError(err)
   is.NotEmpty(encodedImg)
-  // t.Log(encodedImg)
+  t.Log(encodedImg)
 }
