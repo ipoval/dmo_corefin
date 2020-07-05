@@ -10,7 +10,7 @@ stock chart img | NYSE | [link](https://github.com/ipoval/dmo_corefin/tree/maste
 
 ###### NYSE. Stock chart img 
 ```go
-provider := stockcharts.New()
+provider := stockchartsDotCom.New()
 img := New("SPY", provider)
 encodedImg, err := img.GetImgBase64()
 ```

@@ -4,7 +4,7 @@ import (
   "os"
   "testing"
 
-  "github.com/ipoval/dmo_corefin/nyse/img"
+  "github.com/ipoval/dmo_corefin/exchange_nyse/img"
 )
 
 var testProviderChartImg img.ProviderChartImage
