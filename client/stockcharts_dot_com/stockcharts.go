@@ -51,7 +51,7 @@ func (c *Client) GetChartImgBase64(ticker string) (string, error) {
 
 func (c *Client) getChartImgURL(ticker string) string {
   return fmt.Sprintf(
-    `https://stockcharts.com/c-sc/sc?s=%s&p=W&b=5&g=0&i=t9258822767c&r=1593436825603`,
+    `https://stockcharts.com/c-sc/sc?s=%s&p=W&b=5&g=0&i=t8935018320c`,
     ticker,
   )
 }
