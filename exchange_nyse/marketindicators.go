@@ -1,6 +1,6 @@
 package exchange_nyse
 
-var MarketTickersIndicators = []struct {
+var MarketIndicators = []struct {
   Symbol string
   Desc   string
 }{
