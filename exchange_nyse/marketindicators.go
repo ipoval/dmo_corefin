@@ -6,4 +6,5 @@ var MarketIndicators = []struct {
 }{
   {Symbol: "$SPX", Desc: "S&P500"},
   {Symbol: "$VIX", Desc: "Volatility index"},
+  {Symbol: "$SPX:$GOLD", Desc: "S&P500/Gold"},
 }
