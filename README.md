@@ -1,6 +1,6 @@
 ## DMO Core Financials Clients
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/5c9a9a905fae29c790b5/maintainability)](https://codeclimate.com/github/ipoval/dmocorefin/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/8b1f1cb35c53faa6c4b5/maintainability)](https://codeclimate.com/github/ipoval/dmocorefin/maintainability)
 
 [goreportcard.com](https://goreportcard.com/report/github.com/ipoval/dmocorefin)
 
