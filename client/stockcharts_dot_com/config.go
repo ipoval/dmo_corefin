@@ -1,15 +1,15 @@
 package stockcharts_dot_com
 
 import (
-  "time"
+	"time"
 
-  "github.com/lucperkins/rek"
+	"github.com/lucperkins/rek"
 )
 
 const (
-  Referer = "https://stockcharts.dot.com"
+	Referer = "https://stockcharts.dot.com"
 )
 
 var (
-  httpTimeout = rek.Timeout(5 * time.Second)
+	httpTimeout = rek.Timeout(5 * time.Second)
 )

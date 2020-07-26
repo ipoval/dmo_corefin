@@ -22,4 +22,4 @@ imports:
 
 .PHONY: fmt
 fmt:
-	gofmt -w .
+	gofmt -s -w .
