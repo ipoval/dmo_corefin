@@ -1,2 +1,2 @@
-// Internal stuff that only this repo will import
+// Package internal: Internal stuff that only this repo will import
 package internal

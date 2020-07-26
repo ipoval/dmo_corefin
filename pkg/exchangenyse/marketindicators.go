@@ -1,4 +1,4 @@
-package exchange_nyse
+package exchangenyse
 
 var MarketIndicators = []struct {
 	Symbol string
@@ -7,4 +7,5 @@ var MarketIndicators = []struct {
 	{Symbol: "$SPX", Desc: "S&P500"},
 	{Symbol: "$VIX", Desc: "Volatility index"},
 	{Symbol: "$SPX:$GOLD", Desc: "S&P500/Gold"},
+	{Symbol: "$CPCE", Desc: "Options equity Put/Call ratio"},
 }

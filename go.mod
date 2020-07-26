@@ -1,4 +1,4 @@
-module github.com/ipoval/dmo_corefin
+module github.com/ipoval/dmocorefin
 
 go 1.13
 

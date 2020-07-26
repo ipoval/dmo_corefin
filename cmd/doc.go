@@ -1,2 +1,2 @@
-// Commands
+// Package cmd: Commands
 package cmd

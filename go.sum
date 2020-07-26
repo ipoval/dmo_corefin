@@ -5,6 +5,7 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/golang/protobuf v1.2.0 h1:P3YflyNX/ehuJFLhxviNdFxQPkGK5cDcApsge1SqnvM=
 github.com/golang/protobuf v1.2.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
+github.com/ipoval/dmo_corefin v0.0.0-20200726063537-b0f734b25c6f h1:QBIYHysE6DJDbpKzs9ZOuZyHC2t5riIK1Nj9SxOmuPg=
 github.com/ipoval/goactivesupport v1.2.3 h1:dEgEHTc4tRIpBLPksiL/6eXptIXa8v6AkwYp2HLtsAw=
 github.com/ipoval/goactivesupport v1.2.3/go.mod h1:UDLNtWuo16LrUpUUK7XNwDGkaNVWQKGrRWu+KE/+Yag=
 github.com/konsorten/go-windows-terminal-sequences v1.0.3 h1:CE8S1cTafDpPvMhIxNJKvHsGVBgn1xWYf1NbHQhywc8=

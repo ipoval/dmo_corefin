@@ -1,4 +1,4 @@
-package stockcharts_dot_com
+package stockchartsdotcom
 
 import (
 	"encoding/base64"

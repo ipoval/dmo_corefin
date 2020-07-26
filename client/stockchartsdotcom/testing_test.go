@@ -1,13 +1,13 @@
-package stockcharts_dot_com
+package stockchartsdotcom
 
 import (
 	"os"
 	"testing"
 
-	"github.com/ipoval/dmo_corefin/exchange_nyse/img"
+	"github.com/ipoval/dmocorefin/pkg/exchangenyse/img"
 )
 
-var testProviderChartImg img.ProviderChartImage
+var testProviderChartImg img.ChartImage
 
 // Called once for all tests
 func TestMain(m *testing.M) {
