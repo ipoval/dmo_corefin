@@ -1,4 +1,4 @@
-package stockchartsdotcom
+package client
 
 import (
 	"github.com/pkg/errors"

@@ -1,4 +1,4 @@
-package stockchartsdotcom
+package cnndotcom
 
 import (
 	"os"
