@@ -32,7 +32,10 @@ func (c *Client) GetChartImgBase64(ticker string) (string, error) {
 		imgUrl = strings.TrimSuffix(imgUrl, "');")
 		localImgUrl = imgUrl
 	})
-	webScraper.Visit(FearAndGreedIndexUrl)
+	if err := webScraper.Visit(FearAndGreedIndexUrl); err != nil {
+		fmt.Println("error webScraper: %s", err.Error())
+		return "", ErrChartImgStatusCode
+	}
 
 	if err := validateFearAndGreedIndexImgUrl(localImgUrl); err != nil {
 		fmt.Println("invalid url: ", localImgUrl)
