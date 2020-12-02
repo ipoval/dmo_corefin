@@ -33,7 +33,7 @@ func (c *Client) GetChartImgBase64(ticker string) (string, error) {
 		localImgUrl = imgUrl
 	})
 	if err := webScraper.Visit(FearAndGreedIndexUrl); err != nil {
-		fmt.Println("error webScraper: %s", err.Error())
+		fmt.Printf("error webScraper: %s", err.Error())
 		return "", ErrChartImgStatusCode
 	}
 
