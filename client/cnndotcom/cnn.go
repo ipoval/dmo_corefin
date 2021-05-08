@@ -11,6 +11,11 @@ import (
 	. "github.com/ipoval/dmocorefin/client"
 )
 
+const (
+	Referer              = "https://money.cnn.com"
+	FearAndGreedIndexUrl = "https://money.cnn.com/data/fear-and-greed/"
+)
+
 type Client struct {
 	Referer string
 }

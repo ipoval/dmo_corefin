@@ -6,6 +6,10 @@ import (
 	. "github.com/ipoval/dmocorefin/client"
 )
 
+const (
+	Referer = "https://stockcharts.dot.com"
+)
+
 type Client struct {
 	Referer string
 }

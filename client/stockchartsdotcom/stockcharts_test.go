@@ -8,8 +8,7 @@ import (
 
 func TestGetImgBase64(t *testing.T) {
 	is := assert.New(t)
-	sp500 := "SPY"
-	encodedImg, err := testingChartImg.GetChartImgBase64(sp500)
+	encodedImg, err := New().GetChartImgBase64("SPY")
 
 	is.NoError(err)
 	is.NotEmpty(encodedImg)
